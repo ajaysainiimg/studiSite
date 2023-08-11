@@ -59,23 +59,374 @@
     <link rel="stylesheet" href="assets/libs/glightBox/glightbox.min.css">
 </head>
 
-<body class="overflow-hidden">
+<body class="bg-light">
     <div class="page-loader"><div class="spinner"></div></div>
-<!-- * navbar start -->
-<!-- * navbar End -->
-<!-- * hero section start -->
-<!-- * hero section end -->
+    <!-- * navbar start -->
+    <nav class="navbar navbar-expand-lg bg-white position-fixed rounded-pill" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5" href="index.html">
+                <img src="assets/img/Navbar/logo.svg" alt="logo" class="w-100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                <div class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe3">
+                        <li class="nav-item">
+                            <a class="nav-link active px-0 exploreBtn d-flex align-items-center rounded-pill" aria-current="page" href="#">Explore NFT
+                                <span class="dots rounded-pill d-inline-flex"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navmainLink fw-medium position-relative px-0" href="javascript::">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navmainLink fw-medium position-relative px-0" href="javascript::">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navmainLink fw-medium position-relative px-0" href="javascript::">Publishers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navmainLink fw-medium position-relative px-0" href="javascript::">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-inline-flex align-items-center gap-2">
+                        <a href="javascript::" class="d-flex align-items-center justify-content-center navsocial rounded-pill">
+                            <img src="assets/img/Navbar/instagram.svg" alt="instagram" class="h-100 w-100 img-fluid">
+                        </a>
+                        <a href="javascript::" class="d-flex align-items-center justify-content-center navsocial rounded-pill">
+                            <img src="assets/img/Navbar/twitter.svg" alt="twitter" class="h-100 w-100 img-fluid">
+                        </a>
+                        <a href="javascript:;" class="d-inline-flex addproduct rounded-pill text-decoration-none align-items-center justify-content-center">
+                            Add Product
+                            <span class="fw-bolder">+</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- * navbar End -->
 
-<!-- * hero card start -->
-<!-- * hero card end -->
+    <!-- * hero section start -->
+    <div class="container-fluid heroSection ">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="d-inline-flex align-items-center justify-content-center gap-3">
+                    <div class="heroHeading fw-semibold">Start selling</div>
+                    <div class="heroimg d-flex align-items-center justify-content-center rounded-pill overflow-hidden">
+                        <img src="assets/img/index/herobg.jfif" alt="hero" class="h-100 w-100 img-fluid object-fit-cover">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="d-inline-flex align-items-center justify-content-center gap-3">
+                    <div class="heroHeading fw-semibold">creative</div>
+                    <div class="heroimg d-flex align-items-center justify-content-center rounded-pill overflow-hidden">
+                        <img src="assets/img/index/heroimg1.jfif" alt="hero" class="h-100 w-100 img-fluid object-fit-cover">
+                    </div>
+                    <div class="heroHeading heroHeadingtwo fw-semibold">design</div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="d-inline-flex align-items-center justify-content-center gap-3">
+                    <!-- <div class="heroHeading fw-semibold">creative</div> -->
+                    <div class="heroimgtwo d-flex align-items-center justify-content-center rounded-circle overflow-hidden">
+                        <img src="assets/img/index/heroimg2.jfif" alt="hero" class="h-100 w-100 img-fluid object-fit-cover">
+                    </div>
+                    <div class="heroHeading heroHeadingtwo fw-semibold"> collections</div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center heroPara mx-auto">
+                Browse a curated collection of exceptional artistic items NFT. If you are interested please contact and make a purchase on <b class="text-dark">our platform!</b>
+            </div>
+        </div>
+    </div>
+    <!-- * hero section end -->
+
+    <!-- * Collections Products section start -->
+    <div class="container-fluid collectionProducts">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="d-flex align-items-center">
+                    <div class="heading">
+                        Collections Products
+                    </div>
+                    <div class="headingTitle d-flex align-items-center justify-content-center ms-3 rounded-pill">
+                        <span class="d-flex align-items-center justify-content-center rounded-circle"></span>
+                        40+
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <span class="subHeading ">
+                    LATEST 4 PRODUCTS
+                </span>
+            </div>
+        </div>
+        <div class="row pt-3 pb-1">
+            <div class="col-lg-3">
+                <div class="productCard bg-white shadow-sm overflowhidden rounded-1">
+                    <a href="javascript::">
+                        <div class="productImg overflow-hidden rounded-1">
+                            <img src="assets/img/index/cardimg.webp" alt="card" class="w-100 h-100 img-fluid">
+                        </div>
+                    </a>
+                    <div class="Productcontent">
+                        <div class="productDetail">
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none productHeading w-100 s align-items-center position-relative">Secret Artistic</a>
+                            </div>
+                            <a href="javascript:;" class="text-decoration-none producttitle w-100 d-flex align-items-center">Amazing viewing</a>
+                            <div class="">
+                                <a href="javascript:;" class="text-decoration-none userDetail d-flex align-items-center">
+                                    <div class="userImg overflowhidden position-relative">
+                                        <img src="assets/img/index/user1.webp" alt="user" class="h-100 rounded-circle object-fit-cover w-100 img-fluid">
+                                    </div>
+                                    Michael Noris
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="productDetail pt-0 pb-4">
+                            <div class="ProductPrice">2.95 ETH</div>
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none checkDetail d-flex align-items-center justify-content-between">
+                                    Check the details
+                                    <span class="d-flex align-items-center checkDetailImg justify-content-center rounded-circle">
+                                        <img src="assets/img/index/rightarrow.svg" alt="arrow" class="h-100 w-100 img-fluid">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="productCard bg-white shadow-sm overflowhidden rounded-1">
+                    <a href="javascript::">
+                        <div class="productImg overflow-hidden rounded-1">
+                            <img src="assets/img/index/cardimg2.webp" alt="card" class="w-100 h-100 img-fluid object-fit-cover">
+                        </div>
+                    </a>
+                    <div class="Productcontent">
+                        <div class="productDetail">
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none productHeading w-100 s align-items-center position-relative">Feature elements</a>
+                            </div>
+                            <a href="javascript:;" class="text-decoration-none producttitle w-100 d-flex align-items-center">Amazing viewing</a>
+                            <div class="">
+                                <a href="javascript:;" class="text-decoration-none userDetail d-flex align-items-center">
+                                    <div class="userImg overflowhidden position-relative">
+                                        <img src="assets/img/index/user2.webp" alt="user" class="h-100 rounded-circle object-fit-cover w-100 img-fluid">
+                                    </div>
+                                    Joanna Richard
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="productDetail pt-0 pb-4">
+                            <div class="ProductPrice">2.15 ETH</div>
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none checkDetail d-flex align-items-center justify-content-between">
+                                    Check the details
+                                    <span class="d-flex align-items-center checkDetailImg justify-content-center rounded-circle">
+                                        <img src="assets/img/index/rightarrow.svg" alt="arrow" class="h-100 w-100 img-fluid">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="productCard bg-white shadow-sm overflowhidden rounded-1">
+                    <a href="javascript::">
+                        <div class="productImg overflow-hidden rounded-1">
+                            <img src="assets/img/index/cardimg3.webp" alt="card" class="w-100 h-100 object-fit-cover img-fluid">
+                        </div>
+                    </a>
+                    <div class="Productcontent">
+                        <div class="productDetail">
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none productHeading w-100 s align-items-center position-relative">Glasstic Cosmos</a>
+                            </div>
+                            <a href="javascript:;" class="text-decoration-none producttitle w-100 d-flex align-items-center">Future Concept</a>
+                            <div class="">
+                                <a href="javascript:;" class="text-decoration-none userDetail d-flex align-items-center">
+                                    <div class="userImg overflowhidden position-relative">
+                                        <img src="assets/img/index/user3.webp" alt="user" class="h-100 rounded-circle object-fit-cover w-100 img-fluid">
+                                    </div>
+                                    Nikita Milano
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="productDetail pt-0 pb-4">
+                            <div class="ProductPrice">6.00 ETH</div>
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none checkDetail d-flex align-items-center justify-content-between">
+                                    Check the details
+                                    <span class="d-flex align-items-center checkDetailImg justify-content-center rounded-circle">
+                                        <img src="assets/img/index/rightarrow.svg" alt="arrow" class="h-100 w-100 img-fluid">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="productCard bg-white shadow-sm overflowhidden rounded-1">
+                    <a href="javascript::">
+                        <div class="productImg overflow-hidden rounded-1">
+                            <img src="assets/img/index/cardimg4.webp" alt="card" class="w-100 h-100 img-fluid">
+                        </div>
+                    </a>
+                    <div class="Productcontent">
+                        <div class="productDetail">
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none productHeading w-100 s align-items-center position-relative">Amazing Bridge</a>
+                            </div>
+                            <a href="javascript:;" class="text-decoration-none producttitle w-100 d-flex align-items-center">Future Concept</a>
+                            <div class="">
+                                <a href="javascript:;" class="text-decoration-none userDetail d-flex align-items-center">
+                                    <div class="userImg overflowhidden position-relative">
+                                        <img src="assets/img/index/user4.webp" alt="user" class="h-100 rounded-circle object-fit-cover w-100 img-fluid">
+                                    </div>
+                                    Simanto Group
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="productDetail pt-0 pb-4">
+                            <div class="ProductPrice">3.25 ETH</div>
+                            <div>
+                                <a href="javascript:;" class="text-decoration-none checkDetail d-flex align-items-center justify-content-between">
+                                    Check the details
+                                    <span class="d-flex align-items-center checkDetailImg justify-content-center rounded-circle">
+                                        <img src="assets/img/index/rightarrow.svg" alt="arrow" class="h-100 w-100 img-fluid">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center mt-4">
+            <a href="javascript:;" class="text-decoration-none checkBtn rounded-2 d-flex align-items-center justify-content-center">
+                Check More
+                <span class="checkicon d-flex align-items-center justify-content-center">
+                    <img src="assets/img/index/btnicon.svg" alt="check" class="w-100 h-100 img-fluid">
+                </span>
+            </a>
+        </div>
+    </div>
+    <!-- * Collections Products section end -->
+
+    <!--*  logo section start -->
+    <div class="container-fluid logoSection">
+        <div class="row logoMain">
+            <div class="col-md-8 mx-auto">
+                <div class="swiper mySwiper logoslider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="logoImg">
+                                <img src="assets/img/index/clientLogo.svg" alt="logo" class="h-100 w-100 img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="logoImgtwo">
+                                <img src="assets/img/index/clientLogo2.svg" alt="logo" class="h-100 w-100 img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="logoImg">
+                                <img src="assets/img/index/clientLogo3.svg" alt="logo" class="h-100 w-100 img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="logoImg">
+                                <img src="assets/img/index/clientLogo4.svg" alt="logo" class="h-100 w-100 img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*  logo section end -->
 
 
-<!--*  choose country start -->
-<!--*  choose country start -->
-
-
-<!-- * Who We are Section Start -->
-<!-- * Who We are Section End -->
+    <!-- * Featured Product Section Start -->
+    <div class="container-fluid fearturedProduct">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="d-flex align-items-center">
+                    <div class="heading">
+                        Featured Products
+                    </div>
+                    <div class="headingTitle d-flex align-items-center justify-content-center ms-3 rounded-pill">
+                        <span class="d-flex align-items-center justify-content-center rounded-circle"></span>
+                        The best choice
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <span class="subHeading ">
+                    SORTED BY LATEST
+                </span>
+            </div>
+        </div>
+        <div class="row bg-white shadow-sm mt-3">
+            <div class="col-md-6">
+                <div class="row py-4 px-3">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="javascript:;" class="text-decoration-none userDetail d-flex align-items-center">
+                                <div class="userImg overflowhidden position-relative">
+                                    <img src="assets/img/index/user1.webp" alt="user" class="h-100 rounded-circle object-fit-cover w-100 img-fluid">
+                                </div>
+                                Michael Noris
+                            </a>
+                            <div class="d-inline-flex align-items-center gap-2">
+                                <a href="javascript::" class="d-flex align-items-center justify-content-center navsocial rounded-pill">
+                                    <img src="assets/img/Navbar/instagram.svg" alt="instagram" class="h-100 w-100 img-fluid">
+                                </a>
+                                <a href="javascript::" class="d-flex align-items-center justify-content-center navsocial rounded-pill">
+                                    <img src="assets/img/Navbar/twitter.svg" alt="twitter" class="h-100 w-100 img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center pt-3">
+                        <div class="headingTitle headingTitleGreen d-inline-flex align-items-center justify-content-center ms-3 rounded-pill">
+                            <span class="d-flex align-items-center justify-content-center rounded-circle"></span>
+                            Best popular
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a href="javascript:;" class="text-decoration-none featuredHeading">Missing Puzzle</a>
+                    </div>
+                    <div class="col-md-9 text-center mx-auto featuredDetail">
+                        A unique collection of missing puzzles. Attractive appearance and attractive power in colored wooden blocks.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+    <!-- * Featured Product Section End -->
 
 
 <!-- * video section start -->
@@ -104,5 +455,29 @@
     <!-- *Custom Js* -->
     <script src="assets/js/main.js"></script>
 
+    <script>
+        var swiper = new Swiper(".logoslider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            // pagination: {
+            //     el: ".swiper-pagination",
+            //     clickable: true,
+            // },
+            breakpoints: {
+                640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                },
+                768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+                },
+                1024: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+                },
+            },
+        });
+    </script>
 </body>
 </html>
